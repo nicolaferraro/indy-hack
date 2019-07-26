@@ -110,20 +110,31 @@
             <artifactId>camel-http-common</artifactId>
         </dependency>
 
+        <dependency>
+            <groupId>org.apache.camel</groupId>
+            <artifactId>camel-sql</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.apache.camel</groupId>
+            <artifactId>camel-netty4-http</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.apache.camel</groupId>
+            <artifactId>camel-netty4</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.apache.camel</groupId>
+            <artifactId>camel-http4</artifactId>
+        </dependency>
+
     </dependencies>
 
 
     <repositories>
-        <repository>
-            <id>indy</id>
-            <url>http://indy.psi.redhat.com/api/content/maven/group/pnc-builds/</url>
-            <snapshots>
-                <enabled>false</enabled>
-            </snapshots>
-            <releases>
-                <enabled>true</enabled>
-            </releases>
-        </repository>
+
         <repository>
             <id>central</id>
             <name>Maven Central</name>
@@ -143,16 +154,7 @@
     </repositories>
 
     <pluginRepositories>
-        <pluginRepository>
-            <id>indy</id>
-            <url>http://indy.psi.redhat.com/api/content/maven/group/pnc-builds/</url>
-            <snapshots>
-                <enabled>false</enabled>
-            </snapshots>
-            <releases>
-                <enabled>true</enabled>
-            </releases>
-        </pluginRepository>
+
         <pluginRepository>
             <id>central</id>
             <name>Maven Central</name>
